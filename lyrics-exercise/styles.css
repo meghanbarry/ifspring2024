@@ -1,0 +1,28 @@
+body{
+    color:white;
+    background-image: url('background1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+}
+
+
+h1{
+  font-size: 55px;
+ 
+}
+
+p1{
+    color:rgb(208, 138, 102);
+    font-size:15px;
+    font-family: didot;
+    
+}
+
+div{
+    color:rgb(87, 184, 216);
+    font-size:15px;
+    font-family: didot;
+    text-align: right;
+   
+}
