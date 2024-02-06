@@ -1,0 +1,99 @@
+html {
+    font-family: Merriweather, serif;
+    background-color: rgb(255, 235, 205);
+
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 35px;
+}
+
+h2{
+    color: rgb(124, 60, 75);
+    font-size: 24px;
+}
+
+h3{
+    color: rgb(36, 36, 74);
+    font-size: 24px;
+}
+
+h4{
+    font-size: 14px;
+    line-height: 0px;
+    color: rgb(124, 60, 75);
+    
+}
+
+p{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+}
+
+light{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    font-weight: lighter;
+}
+
+black{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    font-weight: bolder;
+}
+
+italic{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    font-style: italic;
+}
+
+ls1{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    letter-spacing: 1em;
+}
+
+ls2{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    letter-spacing: -.1em;
+}
+
+upper{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-transform: uppercase;
+}
+
+lower{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-transform: lowercase;
+}
+
+cap{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-transform: capitalize;
+}
+
+under{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-decoration: underline;
+}
+
+over{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-decoration: overline;
+}
+
+through{
+    font-size: 24px;
+    color: rgb(36, 36, 74);
+    text-decoration: line-through
+}
