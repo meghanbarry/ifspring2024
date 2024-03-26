@@ -1,0 +1,470 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.button_container_black {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #000;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_pastaria {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin:auto;
+    margin-top: 75px;
+    padding: 16px 16px;
+    border-radius: 40px;
+    font-family: "oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    border: 2px solid #e04b11;
+    color: #e04b11;
+    transition: all .7s;
+}
+
+a#btn_pastaria:hover {
+    background-color: #e04b11;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.and:hover{
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+a#btn_colorrun {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-family: "bebas-neue-by-fontfabric", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+a#btn_colorrun:hover {  
+    background: linear-gradient(
+        90deg,
+        rgb(255, 130, 178) 0%,
+        rgb(255, 157, 130) 10%,
+        rgba(255, 182, 130) 20%,
+        rgb(255, 197, 130) 30%,
+        rgb(255, 242, 125) 40%,
+        rgb(225, 255, 125) 50%,
+        rgb(168, 255, 125) 60%,
+        rgb(82, 255, 186) 70%,
+        rgba(82, 220, 255) 80%,
+        rgb(127, 152, 252) 90%,
+        rgb(221, 125, 250) 100%
+    );
+    transition: all .5s;
+}
+
+
+a#btn_apple {
+font-size: 90px;
+text-decoration: none;
+color: #000;
+display: inline-block;
+position: relative;
+margin:auto;
+margin-top: 50px;
+padding: 8px 8px;
+transition: all .5s;
+}
+
+a#btn_apple:hover{
+    font-size: 90px;
+    text-decoration: none;
+    color: #5e5e5e;
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 50px;
+    padding: 8px 8px;
+    }
+
+    a#btn_apple:active{
+        font-size: 100px;
+        text-decoration: none;
+        color: #5e5e5e;
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 50px;
+        padding: 8px 8px;
+        }
+
+        a#btn_oldnavy {
+            display: inline-block;
+            position: relative;
+            margin:auto;
+            margin-top: 100px;
+            padding: 8px 16px;
+            background-color: #fff;
+            color: #231b56;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: -2px;
+            transition: all .2s;
+            border-radius: 40px;
+            
+        }
+        
+        a#btn_oldnavy:before {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: #231b56;
+            transition: all .5s;
+            font-family: "franklin-gothic-urw", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            border-radius: 40px;
+            
+        }
+        
+        a#btn_oldnavy:hover {
+            color: #fff;
+            border-radius: 40px;
+        }
+        
+        a#btn_oldnavy:hover:before {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 40px;
+        }
+        
+        a#btn_oldnavy span {
+            position: relative;
+            z-index: 10;
+            border-radius: 60px;
+        }
+        
+        a#btn_CN {
+            display: inline-block;
+            position: relative;
+            margin:auto;
+            margin-top: 75px;
+            padding: 8px 16px;   
+        }
+
+         a#btn_CN:hover {animation: shaking 0.5s infinite;}
+         @keyframes shaking {
+            0% {transform: rotate(0deg);}
+            20% {transform: rotate(-4deg);}
+            50% {transform: rotate(0deg);}
+            70% {transform: rotate(4deg);}
+            100% {transform: rotate(0deg);}
+         }
+    
+
+    a#btn_MBG {
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 100px;
+        padding: 8px 16px;
+        font-family: "franklin-gothic-urw", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        background-color: #fff;
+        color: #1d572e;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all .2s;
+        border: 1px solid #1d572e;
+    }
+
+    a#btn_MBG:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        box-shadow: #1d572e;;
+    }
+
+    a#btn_HH {
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 0px;
+        size: 20%;
+        transition: all .2s;
+
+    }
+
+    a#btn_HH:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    
+    a#btn_MK {
+        display: inline-block;
+        position: relative;
+        margin-top: 100px;
+        font-family: "franklin-gothic-urw", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+        padding: 10px;
+        letter-spacing: 2px;
+        transition: all .25s;
+    }
+
+    
+    a#btn_MK:hover,
+    a#btn_MK:active {
+      letter-spacing: 5px;
+    }
+    
+    a#btn_MK:after,
+    a#btn_MK:before {
+      backface-visibility: hidden;
+      border: 1px solid rgba(#fff, 0);
+      bottom: 0px;
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      transition: all 280ms ease-in-out;
+      width: 0;
+    }
+    
+    a#btn_MK:hover:after,
+    a#btn_MK:hover:before {
+      backface-visibility: hidden;
+      border-color: #fff;
+      transition: width 350ms ease-in-out;
+      width: 70%;
+    }
+    
+    a#btn_MK:hover:before {
+      bottom: auto;
+      top: 0;
+      width: 70%;
+      
+    }
+
+    a#btn_fitbit {
+        display: inline-block;
+        position: relative;
+        margin-top: 75px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    a#btn_fitbit:hover {
+        cursor:pointer;
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    a#btn_nike {
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 75px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-family: "futura-pt-condensed", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 90px;
+        color: #000;
+        transition: all 0.3s ease-in-out 0s;
+        
+    }
+
+    a#btn_nike:hover {
+        -webkit-text-stroke: 1px black;
+        color: white;
+    }
