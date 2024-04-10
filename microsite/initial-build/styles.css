@@ -1,0 +1,81 @@
+html{
+    background-color: rgb(219, 197, 170);
+}
+
+.ingrid-darling-regular {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .averia-serif libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.topnav {
+    background-color: #a88c65;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+    float: right;
+    color: #1a120e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    margin: 0;
+  }
+
+.home {
+    width: 85px;
+  }
+
+.bio {
+    width: 250px;
+    padding-right: 60px;
+    float: left;
+    padding-top: 30px;
+}
+
+h1 {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.section1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.body {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 0;
+}
