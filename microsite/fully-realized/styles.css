@@ -1,0 +1,149 @@
+html{
+    background-color: rgb(219, 197, 170);
+    margin: 0;
+}
+
+.ingrid-darling-regular {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .averia-serif libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.topnav {
+    background-color: #a88c65;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    font-family: "Ingrid Darling", cursive;
+    font-style: normal;
+    color: #1a120e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 0;
+  }
+
+img {
+  width: 8%;
+  float: left;
+  margin: 0;
+  position: static;
+}
+
+.bio {
+    width: 250px;
+    padding-right: 60px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.section1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.body {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.section2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin: ;
+}
+
+.gallery-a {
+  width: 45%;
+  float: inline-start;
+}
+
+.gallery-b {
+  width: 30%;
+
+}
+
+.gallery-c {
+  width: 30%;
+}
+
+.gallery-d {
+  width: 30%;
+}
+
+.gallery-e {
+  width: 30%;
+}
+
+.gallery-f {
+  width: 40%;
+}
+
+.gallery-g {
+  width: 30%;
+}
+
+@media (max-width: 1200px) {
+  .topnav a {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 1026px) {
+  .topnav a {
+  font-size: 85%;
+  }
+}
+
+@media (max-width: 863px) {
+  .topnav a {
+    font-size: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 400px) {
+}
+
+
+
